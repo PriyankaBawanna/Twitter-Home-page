@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter</title>
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--side bar section-->
+    <div class="sidebae">
+      <i class="fab fa-twitter"></i>
+      <div class="sidebarOption active">
+        <span class="material-icons"> home </span>
+        <h2>Home</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> search </span>
+        <h2>Explore</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> notifications </span>
+        <h2>Notifications</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> mail_outline </span>
+        <h2> Message</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> bookmark </span>
+        <h2>Bookmark</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> list </span>
+        <h2>Lists</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> person_outline </span>
+        <h2>Profile</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> more_time </span>
+        <h2>More</h2>
+      </div>
+      <button class="sidebar__tweet">Tweet</button>
+    </div>
+
+    <!--side bar ends-->
+    <!-- feed start-->
+    <div class="feed">
+      <div class="feed__header">
+        <h2>Home</h2>
+      </div>
+      <!--tweet box start-->
+      <div class="tweetBox">
+        <form>
+          <div class="tweetBox__input">
+            <img src="../img/profile.jpg" alt="" />
+            <input type="text" placeholder="What's happening ?" />
+          </div>
+          <button class="tweetBox__tweetButton">Tweet</button>
+        </form>
+      </div>
+      <!--tweet box ends-->
+      <!--Post starts 1-->
+      <div class="post">
+        <div class="post__avatar"><img src="../img/profile.jpg" /></div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headertext">
+              <h3>
+                Shershaah
+                <span class="post__headerSpecial">
+                  <span class="material-icons post__badge"> verified </span
+                  >@Shershaah
+                </span>
+              </h3>
+            </div>
+            <div class="post_headerDescription">
+              <p>Yeh Dil Maange More.......!!!!!!!</p>
+            </div>
+          </div>
+          <img src="../img/Shersha.jpg" alt="" />
+          <div class="post_footer">
+            <span class="material-icons"> repeat </span>
+            <span class="material-icons"> favorite_border </span>
+            <span class="material-icons"> publish </span>
+          </div>
+        </div>
+      </div>
+      <!--Post ends 1-->
+      <!--post second start here-->
+      <div class="post">
+        <div class="post__avatar"><img src="../img/profile.jpg" /></div>
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headertext">
+              <h3>
+                Vikram Batra
+                <span class="post__headerSpecial">
+                  <span class="material-icons post__badge"> verified </span
+                  >@Vikram Batra
+                </span>
+              </h3>
+            </div>
+            <div class="post_headerDescription">
+              <p>durge mata ki jai ......!</p>
+            </div>
+          </div>
+          <img src="../img/second.jpeg" alt="" />
+          <div class="post_footer">
+            <span class="material-icons"> repeat </span>
+            <span class="material-icons"> favorite_border </span>
+            <span class="material-icons"> publish </span>
+          </div>
+        </div>
+      </div>
+      <!--post second ends ther -->
+      <!--third post start here-->
+      <div class="post">
+        <div class="post__avatar"><img src="../img/profile.jpg" /></div>
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headertext">
+              <h3>
+                ISRO
+                <span class="post__headerSpecial">
+                  <span class="material-icons post__badge"> verified </span
+                  >@ISRO
+                </span>
+              </h3>
+            </div>
+            <div class="post_headerDescription">
+              <p>Is sky the limit ?</p>
+            </div>
+          </div>
+          <img src="../img/isro.jpg" alt="" />
+          <div class="post_footer">
+            <span class="material-icons"> repeat </span>
+            <span class="material-icons"> favorite_border </span>
+            <span class="material-icons"> publish </span>
+          </div>
+        </div>
+      </div>
+      <!-- third post ends here -->
+    </div>
+    <!-- feed ends-->
+    <!-- third post ends here -->
+<!--left part star-->
+<div class="widgets">
+  <div class="widgets__input">
+    <span class="material-icons  search__icon"> search </span>
+    <input type="text" placeholder="Search Twitter"/>
+  </div>
+  <div class="widgets__widgetContainer">
+    <h2>What's happening ?</h2>
+    <!--side post-->
+      <div class="post">
+    <div class="post__avatar"><img src="../img/profile.jpg" /></div>
+    <div class="post__body">
+      <div class="post__header">
+        <div class="post__headertext">
+          <h3>
+          Tourism in India
+            <span class="post__headerSpecial">
+              <span class="material-icons post__badge"> verified </span
+              >@Incredible India
+            </span>
+          </h3>
+        </div>
+        <div class="post_headerDescription">
+          <p>Incredible India <span>&#128591;&#127995;</span></p>
+        </div>
+      </div>
+      <img src="../img/dharamshala-fb.jpg" alt="" />
+      
+      
+      
+      
+      
+    </div>
+  </div>
+  </div>
+</div>
+<!--left part end-->
+    </div>
+  </div>
+  </body>
+</html>
